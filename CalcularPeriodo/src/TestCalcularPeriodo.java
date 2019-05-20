@@ -1,12 +1,15 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.time.LocalDate;
+
 import org.junit.jupiter.api.Test;
 
 class TestCalcularPeriodo {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testCalcularPeriodo() {
+		assertEquals("Hola",  LocalDate.now());
+		
 	}
 
 }
